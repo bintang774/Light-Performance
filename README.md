@@ -16,12 +16,18 @@ Feature:
 ## On Termux or Terminal Emulator 
 
  • su -c GPM1 | Turn on GPU Performance Mode
+
  • su -c GPM0 | Turn Off GPU Performance Mode
+
  
  • su -c VULKAN | Change rendering to Vulkan
+
  • su -c SKIAVK | Change rendering to Vulkan (Skia)
+
  • su -c SKIAGL | Change rendering to Skiagl
+
  • su -c OPENGL | Change rendering to Opengl
+
  
  [ WARN ] Make sure your device supports Vulkan rendering!
  
